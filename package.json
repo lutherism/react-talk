@@ -10,7 +10,6 @@
   "author": "lutherism",
   "license": "MIT",
   "dependencies": {
-    "pg-assets": "plangrid/pg-styleguide-assets",
     "react": "^0.13.3",
     "reqwest": "^1.1.5"
   },
