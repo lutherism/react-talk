@@ -13,6 +13,7 @@ var App = React.createClass({
       success: this.updateMessages.bind(this)
     });
     this.updateTimer = this.requestMessages();
+    this.getDOMNode().querySelector('input').focus();
   },
   componentWillUnMount: function() {
     clearTimeout(this.updateTimer);
@@ -85,6 +86,7 @@ var App = React.createClass({
   },
 
   submitMessage: function(e) {
+    e.preventDefault();
     this.postNewMessage(this.state.messageText);
 
     this.setState({
