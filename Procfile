@@ -1,1 +1,1 @@
-web: npm update && gulp && node index.js
+web: npm update && gulp && node server.js
