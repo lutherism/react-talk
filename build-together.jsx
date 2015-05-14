@@ -38,7 +38,11 @@ var App = React.createClass({
     reqwest({
       url: "/message",
       method: "post",
-      data: {message: message},
+      data: {
+        message: message,
+        author: this.state.author,
+        timestamp: Date.now()
+      },
       dataType: "application/json",
       success: this.updateMessages.bind(this)
     });
@@ -47,17 +51,31 @@ var App = React.createClass({
   getInitialState: function() {
     return {
       messages: [],
-      messageText: ""
+      messageText: "",
+      author: ""
     };
   },
   render: function() {
     return (
       <div>
+        <label>Your name:</label>
+        <input
+          placeholder="Anonymous"
+          value={this.state.author}
+          onChange={this.authorChange} />
         <ul>
           {this.state.messages.map(function(message) {
             return (
               <li>
-                {message}
+                  {message.message}
+                <small
+                  style={{
+                    color: 'grey',
+                    marginLeft: 15
+                  }}>
+                  {message.author + ", "}
+                  {(new Date(parseInt(message.timestamp))).toLocaleString()}
+                </small>
               </li>
             );
           })}
@@ -77,6 +95,12 @@ var App = React.createClass({
 
       </div>
     );
+  },
+
+  authorChange: function(e) {
+    this.setState({
+      author: e.target.value
+    });
   },
 
   inputChange: function(e) {

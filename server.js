@@ -12,7 +12,11 @@ app.set('port', (process.env.PORT || 5000));
 
 var MessageStore = {
   _messages: [
-    "This Chat room has begun."
+    {
+      message: "This Chat room has begun.",
+      author: "bot",
+      timestamp: Date.now()
+    }
   ],
   getMessages: function() {
     return this._messages.map(function(v) {
@@ -31,7 +35,11 @@ app.use('/vendor', express.static('vendor'));
 app.post('/message', function(req, resp) {
   if (typeof req.body === 'object' &&
     req.body.message) {
-      MessageStore.pushMessage(req.body.message);
+      MessageStore.pushMessage({
+        message: req.body.message || "",
+        author: req.body.author || "Anonymous",
+        timestamp: req.body.timestamp || Date.now()
+      });
     }
 
     resp.status(200).json(MessageStore.getMessages());
