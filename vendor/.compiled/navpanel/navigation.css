@@ -1,0 +1,92 @@
+.navigation li {
+  border-radius: 3px;
+  height: 36px;
+  line-height: 36px;
+  width: 100%;
+  padding: 0 15px; }
+  .navigation li a {
+    display: inline-block;
+    color: #8D9AA6;
+    width: 100%; }
+  .navigation li .label {
+    margin-right: 5px;
+    display: inline-block;
+    width: auto; }
+  .navigation li .icon-sheet,
+  .navigation li .icon-attachment,
+  .navigation li .icon-issue,
+  .navigation li .icon-rfi,
+  .navigation li .icon-photo,
+  .navigation li .icon-snapshot,
+  .navigation li .icon-team,
+  .navigation li .icon-settings {
+    margin-right: 10px; }
+  .navigation li .icon-sheet {
+    width: 20px;
+    height: 16px;
+    background: url("/assets/icons/icon-sheet-grey-96548d22.svg") no-repeat;
+    display: inline-block;
+    vertical-align: middle; }
+  .navigation li .icon-attachment {
+    width: 20px;
+    height: 18px;
+    background: url("/assets/icons/icon-attachment-grey-9e5f3c35.svg") no-repeat;
+    display: inline-block;
+    vertical-align: middle; }
+  .navigation li .icon-issue {
+    width: 20px;
+    height: 20px;
+    background: url("/assets/icons/icon-issue-grey-ce821b59.svg") no-repeat;
+    display: inline-block;
+    vertical-align: middle; }
+  .navigation li .icon-rfi {
+    width: 20px;
+    height: 20px;
+    background: url("/assets/icons/icon-rfi-grey-d0cea9c0.svg") no-repeat;
+    display: inline-block;
+    vertical-align: middle; }
+  .navigation li .icon-photo {
+    width: 20px;
+    height: 16px;
+    background: url("/assets/icons/icon-photo-grey-2e21b55d.svg") no-repeat;
+    display: inline-block;
+    vertical-align: middle; }
+  .navigation li .icon-snapshot {
+    width: 20px;
+    height: 18px;
+    background: url("/assets/icons/icon-snapshot-grey-59fa07ab.svg") no-repeat;
+    display: inline-block;
+    vertical-align: middle; }
+  .navigation li .icon-team {
+    width: 20px;
+    height: 16px;
+    background: url("/assets/icons/icon-team-grey-be5a1ae5.svg") no-repeat;
+    display: inline-block;
+    vertical-align: middle; }
+  .navigation li .icon-settings {
+    width: 20px;
+    height: 20px;
+    background: url("/assets/icons/icon-settings-grey-1d6d04b7.svg") no-repeat;
+    display: inline-block;
+    vertical-align: middle; }
+
+.navigation li:hover {
+  background: #2D3339; }
+  .navigation li:hover a {
+    color: #FFFFFF; }
+  .navigation li:hover .icon-sheet {
+    background-image: url("/assets/icons/icon-sheet-white-a9b3e184.svg"); }
+  .navigation li:hover .icon-attachment {
+    background-image: url("/assets/icons/icon-attachment-white-18b8f561.svg"); }
+  .navigation li:hover .icon-issue {
+    background-image: url("/assets/icons/icon-issue-white-8dd53d32.svg"); }
+  .navigation li:hover .icon-rfi {
+    background-image: url("/assets/icons/icon-rfi-white-787364b9.svg"); }
+  .navigation li:hover .icon-photo {
+    background-image: url("/assets/icons/icon-photo-white-01093411.svg"); }
+  .navigation li:hover .icon-snapshot {
+    background-image: url("/assets/icons/icon-snapshot-white-63670966.svg"); }
+  .navigation li:hover .icon-team {
+    background-image: url("/assets/icons/icon-team-white-200a3758.svg"); }
+  .navigation li:hover .icon-settings {
+    background-image: url("/assets/icons/icon-settings-white-c5e94164.svg"); }

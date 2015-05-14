@@ -1,0 +1,37 @@
+.tabs {
+  margin: 20px 0; }
+  .tabs li {
+    display: table-cell;
+    border: 1px solid rgba(212, 217, 221, 0);
+    border-bottom: 1px solid #d4d9dd; }
+    .tabs li a {
+      display: inline-block;
+      padding: 6px 15px;
+      color: #8D9AA6;
+      white-space: nowrap; }
+  .tabs li.active {
+    border-color: #d4d9dd;
+    border-bottom-color: rgba(212, 217, 221, 0);
+    border-radius: 3px 3px 0 0; }
+    .tabs li.active a {
+      color: #60676D; }
+    .tabs li.active .badge {
+      border-color: #2C97DE; }
+  .tabs li:hover a {
+    color: #2C97DE; }
+  .tabs li:hover .badge {
+    border-color: #2C97DE; }
+  .tabs li:last-child {
+    width: 100%; }
+
+.tabs.pills {
+  border: none; }
+  .tabs.pills li {
+    border: none;
+    border-radius: 3px; }
+  .tabs.pills li.active {
+    background-color: #2C97DE; }
+    .tabs.pills li.active a {
+      color: #FFFFFF; }
+    .tabs.pills li.active .badge {
+      border: 1px solid #FFFFFF; }

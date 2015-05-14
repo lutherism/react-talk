@@ -1,0 +1,75 @@
+.dropdown {
+  display: inline-block;
+  position: relative; }
+  .dropdown button .chevron-down {
+    width: 14px;
+    height: 7px;
+    background: url("/assets/chevrons/chevron-down-grey-ce99fd4e.svg") no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: -7px;
+    margin-left: 5px; }
+  .dropdown button.primary .chevron-down, .dropdown button.additive .chevron-down, .dropdown button.destructive .chevron-down {
+    width: 14px;
+    height: 7px;
+    background: url("/assets/chevrons/chevron-down-white-8975d174.svg") no-repeat;
+    display: inline-block;
+    vertical-align: middle; }
+
+.dropdown-menu {
+  font-family: Avenir-Book, Avenir;
+  display: none;
+  position: absolute;
+  min-width: 150px;
+  left: 0;
+  z-index: 1000;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  background-color: #FFFFFF;
+  border: 1px solid #D4D9DD;
+  border-radius: 3px;
+  box-shadow: 0px 4px 7px rgba(44, 51, 56, 0.1); }
+  .dropdown-menu.open {
+    display: block; }
+  .dropdown-menu.transparent {
+    background: none;
+    box-shadow: none; }
+    .dropdown-menu.transparent label {
+      padding: 8px 20px; }
+    .dropdown-menu.transparent li {
+      border-bottom: 1px solid #D4D9DD; }
+      .dropdown-menu.transparent li:last-child {
+        border: none; }
+      .dropdown-menu.transparent li.divider {
+        display: none; }
+  .dropdown-menu.bold {
+    font-family: Avenir-Medium, Avenir; }
+    .dropdown-menu.bold label {
+      font-weight: 500; }
+  .dropdown-menu.text-centered {
+    text-align: center; }
+  .dropdown-menu input[type=radio] {
+    display: none; }
+  .dropdown-menu label {
+    display: block;
+    clear: both;
+    white-space: nowrap;
+    padding: 2px 20px;
+    color: #2D3339;
+    font-weight: 100; }
+    .dropdown-menu label:hover {
+      color: #FFFFFF;
+      background-color: #2C97DE; }
+  .dropdown-menu .divider {
+    height: 1px;
+    margin: 5px 0;
+    overflow: hidden;
+    background-color: #D4D9DD; }
+  .dropdown-menu .title span {
+    color: #8D9AA6;
+    padding: 3px 20px;
+    font-size: 0.85em;
+    font-weight: 100; }
+    .dropdown-menu .title span:hover {
+      color: #8D9AA6;
+      background: #FFFFFF; }

@@ -1,0 +1,60 @@
+.breadcrumbs {
+  display: inline-block;
+  float: left;
+  padding: 0 25px;
+  height: 48px; }
+  .breadcrumbs:before {
+    content: '';
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle; }
+  .breadcrumbs li {
+    display: inline-block; }
+    .breadcrumbs li a {
+      color: #B2BAC2;
+      font-size: 1.15em;
+      font-weight: 100;
+      display: inline-block; }
+  .breadcrumbs li.active a {
+    color: #2D3339;
+    font-weight: 500; }
+  .breadcrumbs a[disabled] {
+    color: #2D3339; }
+  .breadcrumbs a[disabled]:hover {
+    cursor: default; }
+  .breadcrumbs.inline {
+    font-family: Avenir-Book, Avenir;
+    border: 1px solid #D4D9DD;
+    border-radius: 3px;
+    padding: 0 5px;
+    color: #D4D9DD;
+    font-weight: 100;
+    width: 100%; }
+    .breadcrumbs.inline li {
+      display: inline-block; }
+      .breadcrumbs.inline li a {
+        font-size: 1em;
+        color: #2C97DE;
+        display: inline-block;
+        padding: 5px 10px; }
+    .breadcrumbs.inline li:after {
+      content: "/"; }
+    .breadcrumbs.inline li:last-child:after {
+      content: ""; }
+    .breadcrumbs.inline a[disabled] {
+      color: #8D9AA6; }
+  .breadcrumbs .icon {
+    margin-right: 10px; }
+  .breadcrumbs .icon-arrow-right {
+    width: 10px;
+    height: 12px;
+    background: url("/assets/chevrons/chevron-right-bad9a48e.svg") no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 10px; }
+  .breadcrumbs .icon-folder {
+    width: 20px;
+    height: 20px;
+    background: url("/assets/icons/icon-folder-fd63b33a.svg") no-repeat;
+    display: inline-block;
+    vertical-align: middle; }

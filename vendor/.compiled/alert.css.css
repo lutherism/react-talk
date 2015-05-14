@@ -1,0 +1,33 @@
+.alert {
+  display: block;
+  width: 100%;
+  padding: 15px 30px;
+  margin-top: 15px; }
+  .alert.error {
+    background-color: #FFEDED;
+    color: #EF5956; }
+    .alert.error a {
+      color: #EF5956;
+      text-decoration: underline;
+      margin-left: 3px; }
+  .alert.success {
+    background-color: #DCF5DD;
+    color: #47944A; }
+    .alert.success a {
+      color: #47944A;
+      text-decoration: underline;
+      margin-left: 3px; }
+  .alert.warning {
+    background-color: #FAF4DC;
+    color: #E87E03; }
+    .alert.warning a {
+      color: #E87E03;
+      text-decoration: underline;
+      margin-left: 3px; }
+  .alert.info {
+    background-color: #E0F3FF;
+    color: #0085DE; }
+    .alert.info a {
+      color: #0085DE;
+      text-decoration: underline;
+      margin-left: 3px; }

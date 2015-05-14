@@ -1,0 +1,22 @@
+.badge-wrapper {
+  float: right;
+  line-height: 36px; }
+
+.badge {
+  color: #FFFFFF;
+  background-color: #B2BAC2;
+  border: 1px solid #B2BAC2;
+  font-size: 0.8em;
+  border-radius: 10px;
+  padding: 1px 6px;
+  margin-left: 5px; }
+  .badge.warning {
+    background-color: #E94B35;
+    border-color: #E94B35; }
+
+.menu li:hover .badge,
+.tabs li.active .badge,
+.tabs li:hover .badge {
+  color: #FFFFFF;
+  background-color: #2C97DE;
+  border-color: #FFFFFF; }

@@ -1,0 +1,42 @@
+{
+  "name": "react-talk",
+  "version": "1.0.0",
+  "description": "react presentation",
+  "main": "build.js",
+  "scripts": {
+    "test": "npm test",
+    "build": "browserify sample1.jsx -o public/main.js"
+  },
+  "author": "lutherism",
+  "license": "MIT",
+  "dependencies": {
+    "pg-assets": "plangrid/pg-styleguide-assets",
+    "react": "^0.13.3",
+    "reqwest": "^1.1.5"
+  },
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
+  },
+  "browser": {
+    "pg-assets": "./vendor/.pg-assets/pg-assets.js",
+    "react": "./node_modules/react/dist/react-with-addons.js"
+  },
+  "devDependencies": {
+    "body-parser": "^1.12.4",
+    "express": "^4.12.3",
+    "gulp": "^3.8.11",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat": "^2.5.2",
+    "gulp-fingerprint": "^0.3.2",
+    "gulp-react": "^3.0.1",
+    "gulp-rev": "^3.0.1",
+    "gulp-sass": "^2.0.1",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.2.0",
+    "multer": "^0.1.8",
+    "reactify": "^1.1.1",
+    "run-sequence": "^1.1.0"
+  }
+}

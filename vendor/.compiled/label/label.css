@@ -1,0 +1,31 @@
+.label {
+  display: inline-block;
+  line-height: 1.4;
+  border-radius: 3px; }
+  .label.primary {
+    color: #FFFFFF;
+    background-color: #0085DE; }
+  .label.secondary {
+    color: #0085DE;
+    background-color: #FFFFFF; }
+  .label.additive {
+    color: #FFFFFF;
+    background-color: #58B95C; }
+  .label.destructive {
+    color: #FFFFFF;
+    background-color: #E94B35; }
+  .label.grey {
+    color: #FFFFFF;
+    background-color: #B2BAC2; }
+  .label.purple {
+    color: #FFFFFF;
+    background-color: #828BC9; }
+  .label.orange {
+    color: #FFFFFF;
+    background-color: #F59D00; }
+  .label.small {
+    font-size: 0.85em;
+    padding: 2px 6px; }
+  .label.large {
+    font-size: 1em;
+    padding: 4px 12px; }

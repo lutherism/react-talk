@@ -1,0 +1,8 @@
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("/assets/logos/logo-49X49-1739cd98.svg") #0085DE no-repeat center center;
+  height: 47px;
+  width: 100%;
+  float: left; }

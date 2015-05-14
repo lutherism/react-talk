@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="49px" height="49px" viewBox="0 0 49 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.12" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="-1" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feGaussianBlur stdDeviation="0" in="shadowOffsetInner1" result="shadowBlurInner1"></feGaussianBlur>
+            <feComposite in="shadowBlurInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.176470588   0 0 0 0 0.2   0 0 0 0 0.223529412  0 0 0 0.084 0" in="shadowInnerInner1" type="matrix" result="shadowMatrixInner1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="49" height="49"></rect>
+        <path d="M39,35.1694412 C39,37.2767745 37.2767745,39 35.1691569,39 L23.6712255,39 C16.0447941,38.574098 10,32.2333333 10,24.5 C10,16.4917353 16.4925882,10 24.5,10 C32.0462549,10 38.3108235,15.765598 39,23.1321667 L39,35.1694412 Z M24.4994314,13.5445392 C18.458902,13.5445392 13.5442549,18.458902 13.5442549,24.5 C13.5442549,30.5405294 18.458902,35.4554608 24.4994314,35.4554608 C30.5402451,35.4554608 35.4554608,30.5405294 35.4554608,24.5 C35.4554608,18.458902 30.5402451,13.5445392 24.4994314,13.5445392 Z M33.5676176,35.3710196 C33.5676176,36.3573039 34.3671078,37.1567941 35.3533922,37.1567941 C36.341098,37.1567941 37.139451,36.3573039 37.139451,35.3710196 C37.139451,34.3841667 36.341098,33.5843922 35.3533922,33.5843922 C34.3671078,33.5843922 33.5676176,34.3841667 33.5676176,35.3710196 Z" id="path-4"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Fill-3-+-Rectangle-104-+-Fill-4" sketch:type="MSLayerGroup">
+            <g id="Rectangle-104" filter="url(#filter-2)">
+                <use fill="#0085DE" sketch:type="MSShapeGroup" xlink:href="#path-3"></use>
+            </g>
+            <g id="Fill-4">
+                <use fill="#FFFFFF" fill-rule="evenodd" sketch:type="MSShapeGroup" xlink:href="#path-4"></use>
+                <use fill="none" xlink:href="#path-4"></use>
+            </g>
+        </g>
+    </g>
+</svg>

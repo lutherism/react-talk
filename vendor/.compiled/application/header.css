@@ -1,0 +1,24 @@
+header {
+  font-family: Avenir-Light, Avenir;
+  color: #8D9AA6; }
+  header h1 {
+    font-size: 1.7em;
+    line-height: 1.7;
+    color: #2C97DE; }
+    header h1.primary {
+      color: #2C97DE; }
+    header h1.secondary {
+      color: #58B95C; }
+  header h4 {
+    font-size: 1.15em; }
+  header p {
+    font-size: 1em; }
+  header.small {
+    font-family: Avenir-Book, Avenir;
+    padding: 0 0 14px 0; }
+    header.small h1 {
+      font-size: 1.15em; }
+  header.row {
+    margin-top: -14px;
+    padding-right: 33px;
+    padding-left: 33px; }

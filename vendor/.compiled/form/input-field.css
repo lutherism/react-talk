@@ -1,0 +1,98 @@
+.form-field {
+  font-family: Avenir-Book, Avenir;
+  position: relative;
+  margin-bottom: 12px; }
+  .form-field:last-of-type {
+    margin-bottom: 0; }
+  .form-field.error {
+    margin-bottom: 0; }
+  .form-field input {
+    display: block;
+    width: 100%;
+    border: 1px solid #D4D9DD;
+    border-radius: 3px;
+    padding: 8px 12px;
+    margin: 0; }
+    .form-field input::-webkit-input-placeholder {
+      color: #D4D9DD; }
+    .form-field input:-moz-placeholder {
+      color: #D4D9DD; }
+    .form-field input::-moz-placeholder {
+      color: #D4D9DD; }
+    .form-field input:-ms-input-placeholder {
+      color: #D4D9DD; }
+    .form-field input.inline {
+      display: inline-block;
+      width: 147px;
+      border-radius: 0; }
+      .form-field input.inline:first-of-type {
+        border-bottom-left-radius: 3px;
+        border-top-left-radius: 3px;
+        margin-right: -1px; }
+        .form-field input.inline:first-of-type:focus, .form-field input.inline:first-of-type.error {
+          margin-right: 0px;
+          border-right-width: 2px; }
+      .form-field input.inline:last-of-type {
+        border-bottom-right-radius: 3px;
+        border-top-right-radius: 3px;
+        width: 146px; }
+        .form-field input.inline:last-of-type:focus, .form-field input.inline:last-of-type.error {
+          width: 148px;
+          border-left-width: 2px;
+          margin-left: -2px;
+          padding-left: 13px; }
+    .form-field input:focus {
+      border: 2px solid #2C97DE;
+      outline: 0;
+      margin: -1px; }
+    .form-field input[disabled] {
+      color: #8D9AA6; }
+    .form-field input.error {
+      border: 2px solid #EF5956;
+      outline: 0;
+      margin: -1px; }
+    .form-field input.success {
+      background-image: url("/assets/icons/check-mark-green-c45bd88e.svg");
+      background-position: right 10px center;
+      background-repeat: no-repeat; }
+      .form-field input.success:focus {
+        background-position: right 8px center; }
+  .form-field .inline:focus + .inline.error {
+    margin-left: -2px;
+    border-left-color: #2C97DE; }
+  .form-field label {
+    display: block;
+    color: #2D3339; }
+    .form-field label.error {
+      color: #B2BAC2; }
+    .form-field label.success {
+      color: #B2BAC2; }
+  .form-field .field-error-message {
+    display: block;
+    font-size: 0.85em;
+    line-height: 1.4;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    color: #EF5956; }
+  .form-field .form-field-link {
+    font-size: 0.85em;
+    position: absolute;
+    right: 0;
+    top: 0; }
+
+.form-field.inline-label {
+  clear: both;
+  margin-bottom: 16px; }
+  .form-field.inline-label:last-of-type {
+    margin-bottom: 0; }
+  .form-field.inline-label input {
+    display: inline-block;
+    width: 204.8px; }
+  .form-field.inline-label label {
+    display: inline-block;
+    width: 88.2px;
+    padding-right: 5px; }
+  .form-field.inline-label .field-error-message {
+    width: 204.8px;
+    float: right;
+    margin-bottom: 5px; }
