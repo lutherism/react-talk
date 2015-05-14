@@ -61,14 +61,16 @@ var App = React.createClass({
             );
           })}
           <li>
-            <input
-              value={this.state.messageText}
-              onChange={this.inputChange} />
-            <button
-              type="submit"
-              onClick={this.submitMessage}>
-              Submit
-            </button>
+            <form>
+              <input
+                value={this.state.messageText}
+                onChange={this.inputChange} />
+              <button
+                type="submit"
+                onClick={this.submitMessage}>
+                Submit
+              </button>
+            </form>
           </li>
         </ul>
 
